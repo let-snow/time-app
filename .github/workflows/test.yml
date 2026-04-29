@@ -20,6 +20,6 @@ jobs:
           # Ждём запуска сервера
           sleep 3
           # Выполняем тест
-          bash tests/test-time.sh
+          bash tests/time-test.sh
           # Останавливаем приложение
           kill $APP_PID || true
