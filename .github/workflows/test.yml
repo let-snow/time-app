@@ -11,5 +11,7 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run test
+      - name: Run /time test
         run: bash tests/time-test.sh
+      - name: Run /metrics test
+        run: bash tests/metrics-test.sh
